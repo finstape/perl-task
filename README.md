@@ -6,7 +6,7 @@
 
 Установите нужные библиотеки:
 ```bash
-	cpan DBI DBD::Pg CGI HTTP::Daemon
+cpan DBI DBD::Pg CGI HTTP::Daemon
 ```
 
 ## Настройка
@@ -17,21 +17,21 @@
 
 Сначала выполните следующие скрипты для инициализации базы данных и парсинга логов
 ```bash
-	perl create_db.pl
-	perl parse_maillog.pl
+perl create_db.pl
+perl parse_maillog.pl
 ```
 
 ## Запуск сервера
 
 Запустите веб-сервер
 ```bash
-	perl simple-server.pl
+perl simple-server.pl
 ```
 
 ## Использование
 
 Откройте файл 'search.html' в вашем браузере и введите адрес электронной почты для поиска
 
-## License
+## Лицензия
 
 [MIT](https://choosealicense.com/licenses/mit/)
